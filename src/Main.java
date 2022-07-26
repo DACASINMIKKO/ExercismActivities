@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        CarsAssemble carsAssemble = new CarsAssemble();
-        System.out.println(carsAssemble.workingItemsPerMinute(6));
+        Scrabble scrabble = new Scrabble("cabbage");
+        System.out.println(scrabble.getScore());
     }
     public class AnnalynsInfiltration{
         static boolean canFastAttack(boolean knightIsAwake){
