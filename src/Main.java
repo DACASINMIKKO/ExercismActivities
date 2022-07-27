@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Scrabble scrabble = new Scrabble("cabbage");
-        System.out.println(scrabble.getScore());
+        System.out.println(SqueakyClean.clean("mikko       dacasin"));
     }
     public class AnnalynsInfiltration{
         static boolean canFastAttack(boolean knightIsAwake){
