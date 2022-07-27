@@ -1,6 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(SqueakyClean.clean("mikko       dacasin"));
+        int speed = 3;
+        int batteryDrain = 20;
+        var car = new NeedForSpeed(speed, batteryDrain);
+        int distance = 16;
+        var race = new RaceTrack(distance);
+        System.out.println(race.tryFinishTrack(car));
+
     }
     public class AnnalynsInfiltration{
         static boolean canFastAttack(boolean knightIsAwake){
